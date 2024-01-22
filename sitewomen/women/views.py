@@ -51,6 +51,5 @@ def login(request):
     return HttpResponse('Авторизация')
 
 
-
 def page_not_found(request, exeption):
     return HttpResponseNotFound('<h1>Страница не найдена</h1>')
